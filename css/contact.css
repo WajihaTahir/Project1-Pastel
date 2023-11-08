@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #bba6a6;
+}
+h1 {
+  float: left;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 24;
+  padding-right: 25%;
+  margin-right: auto;
+  margin-top: auto;
+}
+li {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 18;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightgrey;
+}
+h2,
+a,
+p {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  background: brown;
+  color: white;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+footer {
+  text-align: center;
+  text-decoration:none;
+  background-color: silver;
+  margin-top:200px;
+}

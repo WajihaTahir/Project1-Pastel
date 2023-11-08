@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registering</title>
+    <link rel="stylesheet" type="text/css" href="../wajihatahir/register.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+</head>
+<body>
+    <h1>Want to get in touch with us? Register here for our services</h1>
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="form-inline" >
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" size="60" placeholder="Your name.." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" size=60 placeholder="Your last name.." required>
+            </div>
+          </div>
+        </div>
+            <div class="form-inline" action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+                <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+                <input type="email" id="email" name="email" size="60" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+          <label for="birthday">Enter Your Birthday:</label>
+          </div>
+          <div class="col-75">
+          <input type="date" id="birthday" name="birthday">
+          </div>
+          </div>
+            </div>
+         <div class="row">
+         <div class="col-25">
+            <div class="tell">
+         <label for="more">Tell us more</label>
+         </div>
+         <div class="col-75">
+      <textarea class="tellbox" id="subject" name="subject" maxlength="500" placeholder="Write something.."></textarea>
+    </div>
+  </div>
+  </div>
+  <div class="package">
+<label for="referrer">Select Package
+            <select id="referrer" name="referrer">
+              <option value="">(select one)</option>
+              <option value="1">Wedding</option>
+              <option value="2">Birthdays</option>
+              <option value="3">Office Parties</option>
+              <option value="4">Custom Planning</option>
+              <option value="5">Something else</option><br>
+              </select>
+              </label>
+              </div>
+              <div class="newsletter">
+    <legend>Do you want to receive newsletter?</legend>
+        <label for="yes"><input id="yes" type="radio" name="choice-type" class="inline" checked />Yes</label>
+        <label for="no"><input id="no" type="radio" name="choice-type" class="inline"/>No</label><br>
+        </div>
+        <div class="terms">
+                <h2>Terms and Conditions</h2>
+                <ul>
+                <li>Fee will be granted as relevant to the quotation.</li> 
+                <li>There will be no refunding before 15 days of the event.</li>
+                <li>All the rights that are given are only subject to the payment in full.</li>
+                </ul>
+                <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I consent to the terms and conditions. 
+            </label>
+            </div>
+</div>
+<div class="buttoncenter">
+<button type="submit" class="registerbtn">Register</button>
+</div>
+  </div>
+      </form>
+    </main>
+    <footer>
+      <a href="https://www.facebook.com/codeacademyberlin/?locale=de_DE" class="fa fa-facebook" target="_blank"></a> 
+      <a href="https://www.instagram.com/codeacademyberlin/" class="fa fa-instagram" target="_blank"></a>  
+    </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../wajihatahir/form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2><b>Register for our service </b></h2>
+    <form
+      class="container"
+      method="post"  
+      action="../wajihatahir/Confirmationpage.html" >
+      <div class="names">
+        <label for="fname">First Name*</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          size="30%"
+          placeholder="Your name.."
+          required/>
+        <label for="lname">Last Name*</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          size="30%"
+          placeholder="Your last name.."
+          required/>
+      </div>
+      <div class="emailbday">
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" size="40%" required />
+        <label for="birthday">Enter Your Birthday:*</label>
+        <input type="date" id="birthday" name="birthday" />
+      </div>
+      <label>Tell us more</label>
+      <textarea
+        class="tellbox"
+        id="boxtell"
+        name="boxtell"
+        placeholder="Write something.."
+      ></textarea>
+      <div class="package">
+        <label for="service"
+          >Select Package*
+          <select id="service" name="service" required>
+            <option value="">(select one)</option>
+            <option value="1">Wedding</option>
+            <option value="2">Birthdays</option>
+            <option value="3">Office Parties</option>
+            <option value="4">Custom Planning</option>
+            <option value="5">Something else</option>
+          </select>
+        </label>
+      </div>
+      <div class="newsletter">
+        <fieldset>
+        <legend>Do you want to receive newsletter?*</legend>
+        <label for="yes"
+          ><input
+            id="yes"
+            type="radio"
+            name="choice-type"
+            class="inline"
+            checked
+            required
+          />Yes</label
+        >
+        <label for="no"
+          ><input
+            id="no"
+            type="radio"
+            name="choice-type"
+            class="inline"
+          />No</label
+        ><br />
+        </fieldset>
+      </div>
+      <h2>Terms and Conditions</h2>
+      <ul>
+        <li>Fee will be granted as relevant to the quotation.</li>
+        <li>There will be no refunding before 15 days of the event.</li>
+        <li>All the rights that are given are only subject to the payment in full.</li>
+      </ul>
+      <label for="terms-and-conditions">
+        <input
+          class="tc"
+          id="terms-and-conditions"
+          type="checkbox"
+          name="terms-and-conditions"
+          required />
+        *I consent to the terms and conditions.
+      </label>
+      <div class="buttoncenter">
+        <button type="submit" class="registerbtn" value="register">
+          Register
+        </button>
+            </div>
+    </form>
+    <footer>
+      <a
+        href="https://www.facebook.com/codeacademyberlin/?locale=de_DE"
+        class="fa fa-facebook"
+        target="_blank"
+      ></a>
+      <a
+        href="https://www.instagram.com/codeacademyberlin/"
+        class="fa fa-instagram"
+        target="_blank"
+      ></a>
+    </footer>
+  </body>
+</html>

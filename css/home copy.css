@@ -1,0 +1,71 @@
+body {
+ display:grid;
+ height: 100vh;
+ grid-template-rows: min-content auto min-content;
+
+}
+header {
+  background-color: #bba6a6;
+}
+li {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 18;
+  float: center;
+  margin: 0;
+  padding:0;
+}
+header ul {
+  background-color: #bba6a6;
+  display: grid;
+  grid-template-columns: repeat(4,min-content);
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*giving text decoration none value to avoid underlined names. */
+}
+
+li a:hover {
+  background-color: lightgrey;
+}
+
+main{
+  display: grid;
+  grid-area:1/2/4/6;
+  justify-content: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-decoration: none;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram { /*setting the colors of insta and facebook link buttons. */
+  background: #125688;
+  color: white;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+footer {
+  text-align: center;
+}
