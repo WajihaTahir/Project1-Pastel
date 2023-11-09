@@ -1,6 +1,6 @@
 body {
   background-color: #e7dada;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "sans-serif";
   margin: 0;
   padding: 0;
 }
@@ -8,9 +8,9 @@ header {
   background-color: #bba6a6;
 }
 h1 {
-  float: left; 
+  float: left;
   color: black;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "sans-serif";
   font-size: 22;
   padding-right: 25%;
   margin-right: auto;
@@ -18,7 +18,7 @@ h1 {
 }
 li {
   display: inline-block;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "sans-serif";
   font-size: 18;
   text-align: center;
 }
@@ -70,7 +70,8 @@ h3 {
   opacity: 0.7;
 }
 
-.fa-instagram { /*setting the colors of insta and facebook link buttons. */
+.fa-instagram {
+  /*setting the colors of insta and facebook link buttons. */
   background: brown;
   color: white;
 }
